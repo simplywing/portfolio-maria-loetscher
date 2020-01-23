@@ -8,6 +8,8 @@ body {
   font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #42474d;
+  background-image: url("../img/ornament.jpg");
+  background-repeat: repeat;
 }
 
 @media (min-width: 992px) {
@@ -53,7 +55,7 @@ p.lead {
   font-weight: 500;
   font-family: 'kg_call_me_mayberegular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 2.55rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
 }
 
 .social-icons a {
@@ -182,3 +184,21 @@ a:hover, a:focus, a:active {
 .ornament{
   text-align: center;
 }
+
+.resume-section > div{
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.section-title {
+  color:#76ae72; 
+  margin-bottom: 2.2rem!important;
+}
+
+.textblock{
+  margin-bottom: 1rem!important;
+}
+/*
+
+*/
