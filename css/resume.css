@@ -201,6 +201,46 @@ a:hover, a:focus, a:active {
 .textblock{
   margin-bottom: 1rem!important;
 }
+
+.social-icons{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-icons span{
+  margin: 0 30px 0 0;
+}
+
+.social-icon{
+  text-align: left;
+  margin: 7px 0 0 0;
+}
+
+
+@media (max-width: 992px){
+  .section-title{
+    letter-spacing: normal;
+  } 
+  .text-primary{
+    letter-spacing: normal;
+  }
+  .subheading{
+    letter-spacing: normal;
+  }
+  .profile-img-container{
+    text-align: center;
+  }
+}
+
+@media (max-width: 551px) {
+  .social-icons span{
+    margin: 0 0 0 0;
+  } 
+  .social-icons{
+    font-size: 0.85rem;
+  }
+}
+
 /*
 
 */
